@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+    <title>ExpressLuke ROMs</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <a class="navbar-brand" href="#">
+        <img src="/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo"> Expressluke
+       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="romsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ROMs <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Resurrection Remix</a>
+              <a class="dropdown-item" href="#">COSP</a>
+              <a class="dropdown-item" href="#">Pixel Experience</a>
+              <a class="dropdown-menu" href="#">crDroid</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/roms.html">All ROMs</a>
+            </div>
+          </li> -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/roms.html">ROMs <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/features.html">Features and Bugs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/extras.html">Extras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/rrlogo.png" class="mr-3 rounded" alt="Resurrection Remix logo">
+                <div class="media-body">
+                  <h5 class="card-title">Resurrection Remix</h5>
+                  <p class="card-text">Official release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="0">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="0">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/exlogo.png" class="mr-3 rounded-circle" alt="Evolution-X logo">
+                <div class="media-body">
+                  <h5 class="card-title">Evolution-X</h5>
+                  <p class="card-text">Unofficial release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="1">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="1">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/cosplogo.png" class="mr-3 rounded-circle" alt="COSP logo">
+                <div class="media-body">
+                  <h5 class="card-title">Clean Open Source Project</h5>
+                  <p class="card-text">Official release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="2">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="2">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/pelogo.png" class="mr-3 rounded-circle" alt="Pixel Experience logo">
+                <div class="media-body">
+                  <h5 class="card-title">Pixel Experience</h5>
+                  <p class="card-text">Official release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="3">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="3">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/crdlogo.png" class="mr-3 rounded-circle" alt="crDroid logo">
+                <div class="media-body">
+                  <h5 class="card-title">crDroid</h5>
+                  <p class="card-text">Official release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="4">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="4">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/vologo.png" class="mr-3 rounded-circle" alt="ViperOS logo">
+                <div class="media-body">
+                  <h5 class="card-title">ViperOS</h5>
+                  <p class="card-text">Official release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="5">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="5">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/aexlogo.png" class="mr-3 rounded-circle" alt="AEX logo">
+                <div class="media-body">
+                  <h5 class="card-title">AOSP Extended</h5>
+                  <p class="card-text">Unofficial release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="6">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="6">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6">
+          <div class="card" style="max-width: 540px;">
+            <div class="card-body">
+              <div class="media">
+                <img src="images/sologo.png" class="mr-3 rounded-circle" alt="SuperiorOS logo">
+                <div class="media-body">
+                  <h5 class="card-title">SuperiorOS</h5>
+                  <p class="card-text">Unofficial release</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal" data-id="7">Download <span class="oi oi-data-transfer-download"></span></a>
+                  <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#moreModal" data-id="7">More <span class="oi oi-external-link"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Rom name</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p><span id="downloadLabel">Download</span></p>
+            <div id="md5">
+              herolte
+              <p><code id="md5hero"></code></p>
+              hero2lte
+              <p><code id="md5hero2"></code></p>
+            </div>
+            <div id="changelog-group">
+              <p>
+                <a class="btn btn-outline-secondary" data-toggle="collapse" href="#changelog" role="button" aria-expanded="false" aria-controls="changelog">
+                  View changelog <!-- <span class="oi oi-copywriting"></span> -->
+                </a>
+              </p>
+              <div class="collapse" id="changelog">
+                <div class="card card-body" id="changes-div">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="btn-group mr-2" role="group" aria-label="Download group">
+              <a href="#" class="btn btn-primary" id="herolte">herolte <span class="oi oi-data-transfer-download"></a>
+              <a href="#" class="btn btn-primary" id="hero2lte">hero2lte <span class="oi oi-data-transfer-download"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="moreModal" tabindex="-1" role="dialog" aria-labelledby="moreModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Rom name</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Roms resources and community:</p>
+            <p>
+              <a href="#" class="btn btn-outline-secondary" id="telegram">Telegram group</a>
+              <a href="#" class="btn btn-outline-secondary" id="site">Rom website</a>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="btn-group mr-2" role="group" aria-label="More group" id="xdagroup">
+              <a href="#" class="btn btn-primary" id="xdahero">XDA S7</a>
+              <a href="#" class="btn btn-primary" id="xdahero2">XDA S7 Edge</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Import data.js -->
+    <script src="/data.js"></script>
+    <script type="text/javascript">
+$('#downloadModal').on('show.bs.modal', function (event) {
+  $('#changelog').collapse('hide');
+  var button = $(event.relatedTarget);
+  var id = button.data('id');
+  var modal = $(this);
+  modal.find('.modal-title').text('Download ' + data[id].name);
+  $('#downloadLabel').text('Download links for latest release of ' + data[id].name + ' for herolte (Galaxy S7) and hero2lte (Galaxy S7 Edge)');
+  $('#herolte').attr('href', data[id].herolink);
+  $('#hero2lte').attr('href', data[id].hero2link);
+  if (!data[id].md5hero || !data[id].md5hero2) {
+    $('#md5').hide();
+  } else {
+    $('#md5').show();
+    $('#md5hero').text('md5sum: ' + data[id].md5hero);
+    $('#md5hero2').text('md5sum: ' + data[id].md5hero2);
+  };
+  if (!data[id].changelog) {
+    $('#changelog-group').hide();
+  } else {
+    $('#changelog-group').show();
+
+    var result = "<ul>";
+    $.each(data[id].changelog, function(key, val) {
+      result += "<li>" + val.version + "<ul>";
+      $.each(val.changes, function(subkey, subval) {
+        result += "<li>" + subval + "</li>";
+      });
+      result += "</ul></li>"
+    });
+    result += "</ul>";
+
+    $('#changes-div').html(result);
+  };
+})
+$('#moreModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget);
+  var id = button.data('id');
+  var modal = $(this);
+  modal.find('.modal-title').text('Info and support for ' + data[id].name);
+  $('#telegram').attr('href', data[id].telegram);
+  $('#site').attr('href', data[id].website);
+  if (!data[id].xdahero || !data[id].xdahero2) {
+    $('#xdagroup').hide();
+  } else {
+    $('#xdagroup').show();
+    $('#xdahero').attr('href', data[id].xdahero);
+    $('#xdahero2').attr('href', data[id].xdahero2);
+  }
+})
+    </script>
+  </body>
+</html>
