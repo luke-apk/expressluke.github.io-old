@@ -266,7 +266,7 @@ $('#downloadModal').on('show.bs.modal', function (event) {
   var id = button.data('id');
   var modal = $(this);
   modal.find('.modal-title').text('Download ' + data[id].name);
-  $('#downloadLabel').text('Download links for latest release of ' + data[id].name + ' for herolte (Galaxy S7) and hero2lte (Galaxy S7 Edge)');
+  $('#downloadLabel').text('Download links for latest release of ' + data[id].name + ' for Galaxy S7 and Galaxy S7 Edge');
   $('#herolte').attr('href', data[id].herolink);
   $('#hero2lte').attr('href', data[id].hero2link);
   if (!data[id].md5hero || !data[id].md5hero2) {
