@@ -17,16 +17,14 @@ var data = [{
   "name":"Evolution-X",
   "herolink":"https://drive.google.com/a/zonc.eu/uc?id=1jkgpUovNYp5Z8WesoRzSPhBhpOrw9P6k&export=download",
   "hero2link":"https://drive.google.com/a/zonc.eu/uc?id=1KRvLQhY4TY-ysLb93yJXxVfHXFi1TMDq&export=download",
-  "md5hero":null,
-  "md5hero2":null,
+  "md5hero":"0f70251aa3b1c8ef2deddab41ceee3f6",
+  "md5hero2":"d0b210371152d5d16cc3ef9dde8dece2",
   "xdahero":null,
   "xdahero2":null,
   "telegram":"https://t.me/EvolutionXNews",
   "website":"https://evolutionx.ml/",
   "changelog":[
-    {"version":"0.0", "changes":["a", "b"]},
-    {"version":"0.0", "changes":["a", "b"]},
-    {"version":"0.0", "changes":["a", "b"]}
+    {"version":"2.0-060702019", "changes":["Initial release"]}
   ]
 }, {
   "name":"Clean Open Source Project",
